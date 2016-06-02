@@ -13,6 +13,7 @@
 		AEFB894D1D006ABA00A1B2ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFB894B1D006ABA00A1B2ED /* Main.storyboard */; };
 		AEFB894F1D006ABA00A1B2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFB894E1D006ABA00A1B2ED /* Assets.xcassets */; };
 		AEFB89521D006ABA00A1B2ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFB89501D006ABA00A1B2ED /* LaunchScreen.storyboard */; };
+		AEFB895B1D006ACC00A1B2ED /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFB895A1D006ACC00A1B2ED /* NSDictionary+JSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AEFB894E1D006ABA00A1B2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEFB89511D006ABA00A1B2ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEFB89531D006ABA00A1B2ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFB89591D006ACC00A1B2ED /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		AEFB895A1D006ACC00A1B2ED /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		AEFB89411D006AB900A1B2ED /* DictionaryToJSON */ = {
 			isa = PBXGroup;
 			children = (
+				AEFB89591D006ACC00A1B2ED /* NSDictionary+JSON.h */,
+				AEFB895A1D006ACC00A1B2ED /* NSDictionary+JSON.m */,
 				AEFB89451D006ABA00A1B2ED /* AppDelegate.h */,
 				AEFB89461D006ABA00A1B2ED /* AppDelegate.m */,
 				AEFB89481D006ABA00A1B2ED /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				AEFB894A1D006ABA00A1B2ED /* ViewController.m in Sources */,
 				AEFB89471D006ABA00A1B2ED /* AppDelegate.m in Sources */,
+				AEFB895B1D006ACC00A1B2ED /* NSDictionary+JSON.m in Sources */,
 				AEFB89441D006ABA00A1B2ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
