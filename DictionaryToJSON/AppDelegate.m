@@ -22,7 +22,7 @@
                              @"Float1": @(M_PI)
                              };
   NSString *theJSONString = testDict.jsonString;
-  NSLog(@"Dict JSON string = %@", theJSONString);
+  NSLog(@"Dict JSON string = \n%@", theJSONString);
 
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
