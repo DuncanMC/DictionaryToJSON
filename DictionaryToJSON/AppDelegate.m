@@ -22,8 +22,7 @@
                              @"Float1": @(M_PI)
                              };
   NSString *theJSONString = testDict.jsonString;
-  NSLog(@"Dict JSON string = \n%@", theJSONString);
-
+  NSLog(@"Done converting JSON To string.");
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

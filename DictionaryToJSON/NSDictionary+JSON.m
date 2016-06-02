@@ -16,7 +16,6 @@
 
 + (NSDictionary *) dictionaryFromJSONString: (NSString *) theJSONString;
 {
-  NSLog(@"JSON String = %@", theJSONString);
   theJSONString = [theJSONString stringByReplacingOccurrencesOfString: escapedQuote
                                                            withString: quote];
   NSError *error;
@@ -49,6 +48,7 @@
                                            encoding: NSUTF8StringEncoding];
   result = [result stringByReplacingOccurrencesOfString: quote
                                                            withString: escapedQuote];
+  NSLog(@"JSON string = \n%@", result);
   return result;
 }
 
